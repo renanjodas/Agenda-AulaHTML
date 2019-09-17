@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Agenda de Compromissos</title>
+    </head>
+    <body>
+        <header>
+            <h1>Agenda de Compromissos</h1>
+        </header>
+        <main>
+            <form name="form_cadastro_compromisso" method="post">
+            <fieldset>
+                <legend><strong>Informações do Compromisso</strong></legend>
+                
+                <label for="titulo">Título: </label> 
+                <input id="titulo" name="titulo" maxlength="20" placeholder="Título" required> <br>
+                <br>
+                <label for="descricao">Descrição: </label><br>
+                <textarea id="descricao" name="descricao" rows="5" cols="30">Descreva Informações</textarea><br>
+                <br>
+                <label for="data">Data: </label>
+                <input id="data" name="data" type="date" required><br>
+                <br>
+                <label for="hora-inicio">Início: </label>
+                <input id="hora-inicio" name="hora-inicio" type="time" required> &nbsp; &nbsp;
+                <label for="hora-fim">Término: </label>
+                <input id="hora-fim" name="hora-fim" type="time" required><br>
+                <br>
+                <label for="local">Local: </label>
+                <input id="local" name="local" maxlength="30" placeholder="Informe local" required><br>
+            </fieldset>
+            
+            <br>
+            </form>
+        </main>
+        <br>
+        <hr>
+        <footer>
+            <em>&copy; 2019 - Jodas Sistemas</em>
+        </footer>
+    </body>
+</html>
